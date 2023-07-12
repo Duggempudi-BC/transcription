@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech-to-Text Transcription</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Speech-to-Text Transcription</h1>
+    <button id="record-btn">Start Recording</button>
+    <h2>Live Transcription:</h2>
+    <div id="transcription"></div>
+    <!-- <h2>Complete Transcription:</h2> -->
+    <!-- <div id="spoken-text"></div> -->
+    <div id="whole-transcription"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
